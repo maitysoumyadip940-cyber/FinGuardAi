@@ -28,7 +28,6 @@
 - [Known Limitations](#-known-limitations)
 - [FAQ](#-faq)
 - [Roadmap](#️-roadmap)
-- [Built With](#-built-with)
 - [HyperFusion 2026](#-hyperfusion-2026)
 - [Team NEXORA](#-team-nexora)
 - [Contributing](#-contributing)
@@ -484,17 +483,7 @@ The HyperFusion 2026 proposal defines FinGuard AI as a real-time financial fraud
 
 ---
 
-## 🧩 Built With
-
-This project was built with the help of **Claude Sonnet 5** (Anthropic), used as a development assistant for:
-
-- Writing and structuring the frontend (`index.html` — HTML/CSS/JS)
-- Building the FastAPI backend (`api/index.py`) for the Vercel deployment
-- Drafting and refining this README and project documentation
-
-**Important for judges:** No AI model runs inside the live application. The `Risk_Score_0_100` and `Fraud_Risk_Reason` values are pre-computed fields stored directly in the synthetic dataset — the current demo performs lookup and display only, it does not perform live inference. Claude was a tool used *to build* the project, not a component running *inside* it. Live AI-driven scoring (XGBoost / anomaly detection) is planned for **Phase 2** of the [Roadmap](#️-roadmap).
-
----
+## 👥 Team NEXORA
 
 Built by **Team NEXORA** for **HyperFusion 2026**.
 
